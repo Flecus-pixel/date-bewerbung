@@ -4,7 +4,7 @@ title: "Das offizielle Date-Formular"
 
 Bitte fülle dieses Formular sorgfältig aus. Die Bearbeitungszeit beträgt in der Regel 2-3 Minuten. 😉
 
-<form action="https://formspree.io/f/yourformid" method="POST">
+<form action="https://formspree.io/f/xzdqgqrr" method="POST">
   <label>Dein wunderschöner Name:</label><br>
   <input type="text" name="name" required><br><br>
   
@@ -15,4 +15,4 @@ Bitte fülle dieses Formular sorgfältig aus. Die Bearbeitungszeit beträgt in d
   <textarea name="message" rows="4" required></textarea><br><br>
   
   <button type="submit">Bewerbung Absenden ❤️</button>
-</form>.
+</form>
