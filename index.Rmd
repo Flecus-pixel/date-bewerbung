@@ -5,15 +5,25 @@ title: "Willkommen zu deiner Chance!"
 Hallo Schatz! 👋
 
 Willkommen auf der hochoffiziellen Anmeldeseite für unser nächstes Date. 
-Da ich für die Uni eine Website erstellen muss, dachte ich mir, wir verbinden das Nützliche mit dem Angenehmen.
+Da ich für den R Markdown Kurs eine Website erstellen muss, dachte ich mir, wir verbinden das Nützliche mit dem Angenehmen.
 
 Damit ich die Vorgaben der Vorlesung erfülle, ist hier ein streng wissenschaftlicher Plot, der zeigt, wie sehr ich mich auf unser Date freue:
 
 ```{r freude-plot, echo=FALSE}
-x <- 1:100
-y <- x^2
 
-plot(x, y, type = "l", col = "red", lwd = 3, 
+x <- seq(100, 0, length.out = 100)
+
+y <- (100 - x)^2
+
+
+plot(x, y, type = "l", col = "#ff69b4", lwd = 4, 
+     xlim = c(100, 0), 
      main = "Vorfreude-Level über Zeit", 
-     xlab = "Minuten bis zum Date", ylab = "Freude")
+     xlab = "Minuten bis zum Date", ylab = "Freude (in Herzklopfen)",
+     yaxt = "n") 
 ```
+
+<!-- EasterEgg für Steffi -->
+<div style="text-align: center; font-size: 10px; color: #ffb6c1; margin-top: 80px; opacity: 0.5;">
+  Extra für Steffi ❤️
+</div>
