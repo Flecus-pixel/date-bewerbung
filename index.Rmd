@@ -1,0 +1,19 @@
+---
+title: "Willkommen zu deiner Chance!"
+---
+
+Hallo Schatz! 👋
+
+Willkommen auf der hochoffiziellen Anmeldeseite für unser nächstes Date. 
+Da ich für die Uni eine Website erstellen muss, dachte ich mir, wir verbinden das Nützliche mit dem Angenehmen.
+
+Damit ich die Vorgaben der Vorlesung erfülle, ist hier ein streng wissenschaftlicher Plot, der zeigt, wie sehr ich mich auf unser Date freue:
+
+```{r freude-plot, echo=FALSE}
+x <- 1:100
+y <- x^2
+
+plot(x, y, type = "l", col = "red", lwd = 3, 
+     main = "Vorfreude-Level über Zeit", 
+     xlab = "Minuten bis zum Date", ylab = "Freude")
+```
