@@ -1,0 +1,17 @@
+name: "Date-Bewerbung"
+output_dir: "docs"
+navbar:
+  title: "Traumdate ❤️"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Über mich"
+      href: about.html
+    - text: "Rezensionen"
+      href: rezensionen.html
+    - text: "Bewerbung"
+      href: date.html
+output:
+  html_document:
+    theme: journal
+    css: style.css
