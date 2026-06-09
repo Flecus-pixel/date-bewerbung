@@ -1,6 +1,8 @@
----
-title: "Das offizielle Date-Formular"
----
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px; margin-bottom: 30px;">
+  <h1 style="margin: 0;">Das offizielle Date-Formular</h1>
+  <img src="maus.png" alt="Süße Maus" style="width: 300px; height: auto;">
+</div>
 
 Bitte fülle dieses Formular sorgfältig aus. Die Bearbeitungszeit beträgt in der Regel 2-3 Minuten. 😉
 
@@ -13,6 +15,9 @@ Bitte fülle dieses Formular sorgfältig aus. Die Bearbeitungszeit beträgt in d
   
   <label>Besondere Wünsche für das Date:</label><br>
   <textarea name="message" rows="4" required></textarea><br><br>
+  
+  <label>Wann würde es dir viel beschäftigter Maus denn zeitlich gut passen? (Bitte Wochentag und Uhrzeit angeben):</label><br>
+  <input type="text" name="zeit" required><br><br>
   
   <button type="submit">Bewerbung Absenden ❤️</button>
 </form>
